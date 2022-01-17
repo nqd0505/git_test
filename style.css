@@ -1,0 +1,98 @@
+blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
+    margin: 0;
+}
+
+.landing-page {
+    position: relative;
+    height: 11440px;
+    width: 1553px;
+    background-color: #0C0C0C;
+    color: white;
+    margin: auto;
+}
+
+.container1 {
+    position: static;
+    width: 1440px;
+    height: 700px;
+    top: 0px;
+    left: 0px;
+    background-image: url(/images/background1.jpg);
+}
+
+.heading1 {
+    position: absolute;
+    width: 1140px;
+    height: 63px;
+    top: 24px;
+    left: 150px;
+}
+
+.left-heading {
+    position: absolute;
+    width: 155px;
+    height: 63px;
+}
+
+.logo {
+    width: 43.53px;
+    height: 63px;
+}
+
+.bg-purple {
+    background: #B60158;
+    border-radius: 4px;
+}
+
+.logo-text {
+    position: absolute;
+    width: 100.86px;
+    height: 50.19px;
+    left: 54.14px;
+    top: 6.37px;
+    font-family: Anton;
+    font-size: 18.1345px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.431775px;
+    text-transform: uppercase;
+}
+
+.signinBtn {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    position: absolute;
+    width: 137px;
+    height: 40px;
+    right: 0px;
+    top: 12px;
+    font-family: 'Circular STD';
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.24px;
+}
+
+.intro {
+    position: absolute;
+    width: 709px;
+    height: 264px;
+    left: 370px;
+    top: 195px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-family: 'SF Pro Display';
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    margin-top: 300px;
+}
+
