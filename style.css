@@ -1,98 +1,240 @@
-blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
-    margin: 0;
+body {
+    margin: 0px;
 }
-
 .landing-page {
     position: relative;
-    height: 11440px;
-    width: 1553px;
     background-color: #0C0C0C;
     color: white;
     margin: auto;
+    min-height: 100vh;
 }
 
 .container1 {
-    position: static;
-    width: 1440px;
-    height: 700px;
-    top: 0px;
-    left: 0px;
     background-image: url(/images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
 }
 
-.heading1 {
-    position: absolute;
-    width: 1140px;
+.container1 .heading {
+    max-width: 1140px;
     height: 63px;
-    top: 24px;
-    left: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
 }
 
-.left-heading {
-    position: absolute;
-    width: 155px;
-    height: 63px;
-}
-
-.logo {
-    width: 43.53px;
-    height: 63px;
-}
-
-.bg-purple {
-    background: #B60158;
-    border-radius: 4px;
-}
-
-.logo-text {
-    position: absolute;
-    width: 100.86px;
-    height: 50.19px;
-    left: 54.14px;
-    top: 6.37px;
-    font-family: Anton;
-    font-size: 18.1345px;
-    line-height: 140%;
+.container1 .left-heading {
     display: flex;
     align-items: center;
-    letter-spacing: 0.431775px;
-    text-transform: uppercase;
 }
 
-.signinBtn {
-    color: white;
+.container1 .logo {
+    width: 43.53px;
+    height: 63px;
+    margin-right: 12px;
+}
+
+.container1 .signin-btn {
+    width: 112px;
+    height: 40px;
+}
+
+.container1 .button-text {
+    font-family: 'Circular STD';
+    font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 16px;
-    position: absolute;
-    width: 137px;
-    height: 40px;
-    right: 0px;
-    top: 12px;
-    font-family: 'Circular STD';
-    font-size: 16px;
     line-height: 140%;
     letter-spacing: 0.24px;
 }
 
-.intro {
-    position: absolute;
-    width: 709px;
-    height: 264px;
-    left: 370px;
-    top: 195px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+.container1 .bg-purple {
+    background: #B60158;
+    border-radius: 4px;
+    color: white;
 }
 
-.title {
+.container1 .logo-text {
+    font-family: Anton;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.431775px;
+    text-transform: uppercase;
+}
+
+.container1 .intro {
+    max-width: 709px;
+    height: 264px;
+    text-align: center;
+    margin: auto;
+    margin-top: 108px;
+}
+
+.container1 .title {
     font-family: 'SF Pro Display';
     font-size: 24px;
     line-height: 140%;
     text-align: center;
-    margin-top: 300px;
+    display: block;
 }
 
+.container1 .description {
+    max-width: 601px;
+    font-family: 'SF Pro Display';
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 140%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+}
+
+.small-text {
+    font-family: 'SF Pro Text';
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 0px;
+    text-align: justify;
+    display: block;
+}
+
+.container1 .buttons {
+    margin: 68px auto 557px auto;
+    max-width: 317px;
+    height: 52px;
+    display: flex;
+}
+
+.container1 .signup-btn {
+    width: 137px;
+    margin-right: 24px;
+    color: white;
+    border: none;
+}
+
+.container1 .video-btn {
+    width: 156px;
+    height: 42px;
+    border: 1px solid #B60158;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    color: #B60158;
+    background: transparent;
+}
+
+.container1 .video-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px 0px 24px;
+}
+
+.container2 {
+    background: black;
+    margin: 0px;
+    height: 583px;
+    display: flex;
+    justify-content: center;
+}
+
+.container2 .box1 {
+    margin: 60px 30px 60px 150px;
+}
+
+h3 {
+    font-family: 'SF Pro Display';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.24px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.container2 .box2 {
+    margin-left: 150px;
+    font-family: SF Pro Text;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container2 .content2 {
+    margin-bottom: 36px;
+}
+
+.container2 img {
+    margin: 60px 150px 60px 0px;
+}
+
+.container3 {
+    height: 1024px;
+    display: flex;
+}
+
+.container3 .textbox {
+    margin: 60px 0px 67px 150px;
+    max-width: 555px;
+}
+
+.container3 .box2 {
+    margin: 60px 96px 0px 0px;
+    font-family: SF Pro Text;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.24px;
+}
+
+.container3 .box2 div {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 36px;
+}
+
+.container3 .box2 span {
+    margin-left: 12px;
+}
+
+.container3 .frame {
+    margin: 60px 28px 64px 0px;
+}
+
+.container4 {
+    display: flex;
+    background-color: black;
+    height: 745px;
+}
+
+.container4 img {
+    margin: 60px 64px 60px 56px;
+}
+
+.container4 .textbox {
+    margin: 60px 150px 60px 0px;
+}
+
+.container4 .quote {
+font-family: SF Pro Display;
+font-weight: bold;
+font-size: 36px;
+line-height: 140%;
+letter-spacing: 0.24px;
+margin: 0px;
+}
+
+.container4 .content {
+    display: flex;
+    flex-direction: column;
+}
